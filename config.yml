@@ -1,0 +1,150 @@
+## Example Config file
+baseURL: "https://example.com"
+theme: "terminalcv"
+title: "sampler del silencio"
+
+params:
+  version: '2.0.0'
+  description: "My terminal cv"
+  prompt:
+    core:
+      text: "usuario@samplerdelsilencio"
+      color: 'orange'
+      before: '['
+      beforeColor: 'red'
+      after: '\]'
+      afterColor: 'red'
+      # separator: '-'
+    separator:
+      text: "-"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: 'red'
+      text: '~/sampler'
+      color: 'blue'
+      after: '\]'
+      afterColor: 'red'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  exitLocation: 'about:blank'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: | 
+    ‎
+                                _                 _      _       _ _                 _       
+                               | |               | |    | |     (_) |               (_)      
+      ___  __ _ _ __ ___  _ __ | | ___ _ __    __| | ___| |  ___ _| | ___ _ __   ___ _  ___  
+     / __|/ _` | '_ ` _ \| '_ \| |/ _ \ '__|  / _` |/ _ \ | / __| | |/ _ \ '_ \ / __| |/ _ \ 
+     \__ \ (_| | | | | | | |_) | |  __/ |    | (_| |  __/ | \__ \ | |  __/ | | | (__| | (_) |
+     |___/\__,_|_| |_| |_| .__/|_|\___|_|     \__,_|\___|_| |___/_|_|\___|_| |_|\___|_|\___/ 
+                         | |                                                                 
+                         |_|                                                                 
+    
+    sampler del silencio es un proyecto de autopublicacion web.
+
+    escribi 'poesia' para comenzar.
+
+  premios:
+    details:
+    - title: pequeños premios
+      description: 'gesto de escapar hacia adelante. intenté pasar toda la semana sin escabiar por una buena causa. llegué al jueves.
+
+
+pensé que no todo en la vida puede ser sufrimiento, pero tampoco todo en la vida puede ser placer. que el costo de los extremos es la abulia, una abulia infinita donde te estimula todo o no te estimula nada.
+
+
+me levanto todos los días y combato lo anodino. vivo una adolescencia vip, donde faltan hijos y futuro, pero en cambio hay un trabajo en gris por una guita que entra todos los meses. un trabajo que me gusta. un mínimo arnés para mis días.
+
+
+igual no puedo evitar llegar a casa y sentir ganas de ser streamer. 
+
+
+gesto de escapar hacia adelante. prender la cámara, hablarles a ustedes, fingir que está todo bien. aprender un oficio, mecánica o carpintería, stremear sobre eso, para gente que se sirve un vino frente al monitor para su dosis diaria de lo real. 
+
+
+stremear para pertenecer al mismo panteón de esos malayos que arman piletas. stremear contra la abulia, la propia y la ajena. stremear para combatir lo anodino.
+
+
+aprender un oficio. ¿alguien sabe cómo se reemplaza un carburador? 
+
+
+quiero el oficio de mi abuelo con quince ka de followers. 
+
+
+una copa de vino me va a hacer bien. va a ayudarme a apagar la mente. va a entumecer mi lengua, va a dejar mi neurosis en su container.
+
+
+de pronto no sé cómo llegué al jueves. dejar el escabio fue un purgatorio que me inventé para salir del paso. gesto de escapar hacia adelante.
+
+
+no quiero ser mi propio mesías. quiero ser mi propio superyó. no quiero que ningún trauma idiota del lenguaje me marque la cancha. quiero vivir de mi abulia.
+
+
+de pronto pienso en david, un tipo que conocí en colombia que renunció al trabajo al grito de “en mi puta vida voy a dar más un clic”. se fue a cosechar café a boyacá. ahora está perdido en una selva brumosa, david perdido en una niebla fría que corta la piel como dagas filosas y no te deja ver el piso. gesto de escapar hacia adelante.
+
+
+hoy brindo por mi tristeza, un tipo de tristeza corporativa. pensar en mi abuelo, en la época que vivió, en el hecho de que no tengo una puta red que me ataje si caigo. brindar para contener una desesperación en sordina, como un árbol que cae solo en una selva brumosa. la selva donde se perdió david. 
+
+
+pequeños premios de mis días.
+
+
+escribir un poema para combatir lo anodino.
+
+
+que el poema me guste lo suficiente para leérselo a alguien.
+
+
+pequeños premios. la poesía es un gesto de escapar hacia adelante.'
+
+  brasas:
+    details:
+    - title: como si las brasas hubieran vuelto a arder solo para el
+      description: 'dfkgjkdgjdf'
+
+  saladas:
+    details:
+    - title: entonces
+      description: 'Cuando yo tenía once años íbamos con mi viejo en auto y él me dijo algo que hasta el día de hoy no
+sé si creerle. Él me dijo que había hecho la ruta a su pueblo natal tantas veces que la podía
+hacer con los ojos cerrados. // Contexto: él iba manejando la Peugeot blanca a través de campos
+verdes y planos [como una tapa de empanada]. El calor estaba que pelaba. Sonreíamos al pasar
+vaquitas y bañados. Atravesábamos Corrientes en esa cafetera con ruedas ↑ que rechinaba,
+humeaba, sudaba, jadeaba y traqueteaba en cada curva, que no hay muchas, y en baches, que bueno.
+Y ahí fue cuando me dijo, a cuento de no sé qué: // “el camino a Saladas lo hice tantas veces que lo
+puedo hacer con los ojos cerrados”.
+Lo primero que pensé fue: “viejo mentiroso”. Me acuerdo de ese rencor duro, reseco y antiguo
+como todos los rencores, mirándolo con las manos en el volante y pensando: “para qué mierda decís
+cosas que no podés hacer”. // Todavía hay algo de ese rencor por ahí guardado. Se aprende una sola
+vez y siempre es doloroso: los papás no son superhéroes. //
+180 kilómetros separan Corrientes de Saladas, y papá diciendo que los podía recorrer con los ojos
+cerrados. O sea, que supuestamente se conocía ↑ cada bache, cada curva, cada vaquita en la
+banquina y cada pichón de tero que volaba sobre el calor que irradiaba el asfalto. // Qué viejo
+mentiroso.
+Pero también pensé qué pasa si eso es verdad. Él tenía cuarenta, yo tenía once. Ponele que no era un
+superhéroe, pero hace treinta años que él volvía a su pueblo. Cuando yo me cagaba los pañales, él
+ya estaba volviendo. Hasta el día de hoy, él pone una excusa que yo no me atrevo a discutir: “no
+sabés si es verdad o no lo que yo digo, pero yo te llevo treinta años de ventaja, y en estos treinta
+años aprendí cosas que vos todavía no sabés”.
+Entonces pienso que en eso se funda la autoridad de los padres. En algo que los hijos jamás
+podemos comprobar hasta que somos viejos y mentirosos como ellos. Mientras tanto, creemos. Y si
+elegimos no creer, no tenemos fundamento: el rencor reseco no es porque piense que papá es un
+mentiroso, sino porque nunca en la puta vida voy a saberlo a ciencia cierta. //
+La frase se quedó conmigo trece años después de ese viaje a las entrañas de Corrientes. Pero cambió
+el sentido con los años. No importa si se puede o no recorrer 180 kilómetros con los ojos cerrados.
+Es ilegal y seguramente la idea más estúpida que se te puede ocurrir.
+Pero creo que me quiso decir algo más. Que lo hizo tantas veces que ya no lo siente, que lo va a
+seguir haciendo. Que es un loco por volver. Capaz que es como yo. Saca el pasado, lo examina y lo
+vuelve a guardar. Él en auto, yo en un cuaderno porque no sé manejar.
+1. Y así descubro que me voy pareciendo a él. Mentiroso, porque ustedes no saben si esta
+historia es cierta o no. Pelado, aunque todavía me faltan unos años. Nostálgico, eso sí. Con
+tal de revivir algo que ya pasó les digo, y ahí lo afirmo bien en serio: yo puedo escribir mil
+páginas como esta siempre con los ojos cerrados.'
